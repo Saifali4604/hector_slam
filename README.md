@@ -31,4 +31,17 @@ plug the RPLIDAR to the system
 ls -l /dev |grep ttyUSB
 sudo chmod 666 /dev/ttyUSB0
 ```
+use below cmds to run rplidar and view the output without hector slam
+```
+roscore
+roslaunch rplidar_ros view_rplidar.launch
+```
+use below cmds to run rplidar and view the output with hector slam
+```
+roscore
+roslaunch rplidar_ros rplidar.launch
+roslaunch hector_slam_launch tutorial.launch
+```
+
+
 
