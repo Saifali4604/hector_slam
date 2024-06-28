@@ -1,10 +1,8 @@
 # hector_slam
 creating the directory/ workspace
 ```
-mkdir rplidar
-cd rplidar
-mkdir src
-cd src
+mkdir -p ~/rplidar/src
+cd ~/rplidar/src
 ```
 git cloning
 ```
@@ -24,7 +22,7 @@ gedit ~/.bashrc
 ```
 paste the below line at the bottom
 ```
-source ~/catkin_ws/devel/setup.bash
+source ~/rplidar/devel/setup.bash
 ```
 plug the RPLIDAR to the system
 ```
